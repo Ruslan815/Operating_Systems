@@ -34,10 +34,15 @@ strcat(tempVar, pIdStr);
 system(tempVar);
 */
 
+//int z;
+//scanf("%d", &z);
+
 system("echo 111");
 system("ps");
 system("pstree");
 system("echo 777");
+
+system("sleep 360");
 
 return 0;
 }
